@@ -24,7 +24,7 @@ shinyServer(function(input, output) {
 
         # Isolate radio buttons, only update with action button
         isolate( macro <- sapply( c(input$GDP, input$UER, input$CPI,
-                                    input$HPA, input$TRS),
+                                    input$HPI, input$TRS),
                                   as.numeric) )
     })
 

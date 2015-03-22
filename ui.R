@@ -1,7 +1,7 @@
 library(shiny)
 
 # Radio Buttons choice list (macro-variables)
-rb_choices = list("Green" = 1, "Amber" = 2, "Red" = 3, "Death!" = 4)
+rb_choices = list("Green" = 1, "Amber" = 2, "Red" = 3, "Danger!" = 4)
 # Checkbox  button choice list (products)
 prod_choices = c("Mortgage", "Lease",
                  "Consumer Loan", "Credit Card")
@@ -47,7 +47,7 @@ shinyUI(fluidPage(
                                    choices = rb_choices, selected = 1) ),
             column(3, radioButtons("CPI", label=h4("Consumer Price Index"),
                                    choices = rb_choices, selected = 1) ),
-            column(2, radioButtons("HPA", label=h4("Home Prices"), 
+            column(2, radioButtons("HPI", label=h4("House Prices"), 
                                    choices = rb_choices, selected = 1) ),
             column(2, radioButtons("TRS", label=h4("Treasury Rates"),
                                    choices = rb_choices, selected = 1) ),
