@@ -11,6 +11,10 @@
 The Application is publicly available through the shiny.io server at: http://willahscott.shinyapps.io/CapiToolApp
 
 
+#### Slidify presentation
+A brief presentation of the tool may be found in [*CapiTool Overview*](http://rpubs.com/WillahScott/capitool). The presentation is available through RPubs and has been developed using [slidify](http://github.com/ramnathv/slidify).
+
+
 ### Regulation
 The Capital Requirements Directive (CRD IV) establishes the amount of capital a bank must have allocated, given as a different functions of the estimated probability of default (for performing products), severity and exposure, for each different product.
 
