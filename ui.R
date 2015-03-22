@@ -1,4 +1,5 @@
 library(shiny)
+require(markdown)
 
 # Radio Buttons choice list (macro-variables)
 rb_choices = list("Green" = 1, "Amber" = 2, "Red" = 3, "Danger!" = 4)
