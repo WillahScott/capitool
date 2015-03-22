@@ -33,9 +33,9 @@ Note that the capital requirements are different for Performing assets than thos
 
 ### *CapiTool* inputs
  - **Macroeconomic Scenario** - the expected behaviour for the different macrovariables as explained above.
- - **Projection Window** - years to project (*Default* all: from 2015 up to 2017).
- - **Product Breakdown** - Checkbox, if selected a projected capital by product breakdown will be plotted.
- - **Products** - when *product breakdown* is selected, the products to see in detail can be filtered *[Note: the total capital projection will be unaffected]*
+ - **Projection Window** - years to project. *[Defaults to all: from 2015 up to 2017]*
+ - **Product Breakdown** - checkbox, if selected a projected capital by product breakdown will be plotted.
+ - **Products** - when *product breakdown* is selected, the products to see in detail can be filtered. *[Note: the total capital projection will be unaffected]*
 
 
 ### *CapiTool* usage
