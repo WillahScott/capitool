@@ -14,7 +14,7 @@ The (European) Stress Test exercise requires two scenarios set forth by the EBA,
 
 
 ### Estimation for different scenarios
-*CapiTool* allows for a user to set the economic tone of the coming 3 years by beeing able to set 5 key macro-variables to *Green* (Base), *Amber* (Adverse), *Red* (Severely Adverse) or *Danger!* (Extreme Recession). The macrovariables able to tweak are:
+*CapiTool* allows for a user to set the economic tone of the coming 3 years by beeing able to set 5 key macro-variables to *Green* (Base), *Amber* (Adverse), *Red* (Severely Adverse) or *Danger!* (Extreme Recession). The macrovariables able to tweak are:  
  - **Gross Domestic Product (GDP)** [def](http://en.wikipedia.org/wiki/Gross_domestic_product)  
  - **Unemployment Rate** [def](http://en.wikipedia.org/wiki/Unemployment#United_States_Bureau_of_Labor_statistics)  
  - **Consumer Price Index** [def](http://en.wikipedia.org/wiki/Consumer_price_index)  
