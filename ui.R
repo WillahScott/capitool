@@ -15,13 +15,21 @@ shinyUI(fluidPage(
         titlePanel(list( tags$head(tags$style("body {background-color: white;")),
                          h1("CapiTool") ) ),
 
-        # Plot
-        fluidRow(
-            column(8,plotOutput("capitalPlot")),
-            conditionalPanel("input.breakdown",
-                column(4, h3("Product breakdown"),
-                       plotOutput("productsPlot"))
-            )
+        #Tabs:  Projection - About
+        tabsetPanel(type="pills",
+            # Projection tab
+            tabPanel("Projection",
+                fluidRow(
+                    column(8,plotOutput("capitalPlot")),
+                    # Conditional panel for product breakdown
+                    conditionalPanel("input.breakdown",
+                                     column(4, h3("Product breakdown"),
+                                            plotOutput("productsPlot"))
+                 )
+                )
+            ),
+            # About tab
+            tabPanel("About", includeMarkdown("About.md"))
         ),
 
 
