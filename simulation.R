@@ -5,11 +5,9 @@
 ################
 
 
-#  I.  READ DATA (filter guarantees out)
-k.vivo.raw <- read.csv("../data/k_vivo.csv")
-k.vivo <- subset(k.vivo.raw, PRODUCTO != "Guarantee")
-k.moroso.raw <- read.csv("../data/k_moroso.csv")
-k.moroso <- subset(k.moroso.raw, PRODUCTO != "Guarantee")
+#  I.  READ DATA
+k.vivo <- read.csv("../data/k_vivo.csv")
+k.moroso <- read.csv("../data/k_moroso.csv")
 
 
 # II.  CAPITAL REQUIREMENTS CURVE - CRD IV

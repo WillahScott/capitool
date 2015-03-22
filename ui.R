@@ -19,7 +19,8 @@ shinyUI(fluidPage(
         fluidRow(
             column(8,plotOutput("capitalPlot")),
             conditionalPanel("input.breakdown",
-                column(4, h3("Product breakdown"))
+                column(4, h3("Product breakdown"),
+                       plotOutput("productsPlot"))
             )
         ),
 
