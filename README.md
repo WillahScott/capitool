@@ -2,7 +2,13 @@
 
 **Regulatory Capital Simulation for different stress scenarios, mainly for educational purposes**
 
-This tool permits an educational exploration of how intuitively different macro-variables affect the regulatory capital requirements set by the Capital Requirements as set by the European Parliament in the CRD IV.
+[*CapiTool*][1] permits an educational exploration of how intuitively different macro-variables affect the regulatory capital requirements set by the Capital Requirements as set by the European Parliament in the CRD IV.
+
+[1]: http://willahscott.shinyapps.io/CapiToolApp
+
+
+#### Shiny App
+The Application is publicly available through the shiny.io server at: [http://willahscott.shinyapps.io/CapiToolApp]
 
 
 ### Regulation
