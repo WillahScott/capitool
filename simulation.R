@@ -6,8 +6,8 @@
 
 
 #  I.  READ DATA
-k.vivo <- read.csv("../data/k_vivo.csv")
-k.moroso <- read.csv("../data/k_moroso.csv")
+k.vivo <- read.csv("data/k_vivo.csv")
+k.moroso <- read.csv("data/k_moroso.csv")
 
 
 # II.  CAPITAL REQUIREMENTS CURVE - CRD IV
