@@ -8,7 +8,7 @@
 
 
 #### Shiny App
-The Application is publicly available through the shiny.io server at: [http://willahscott.shinyapps.io/CapiToolApp]
+The Application is publicly available through the shiny.io server at: http://willahscott.shinyapps.io/CapiToolApp
 
 
 ### Regulation
